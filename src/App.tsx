@@ -1,5 +1,20 @@
+import { Demo, Hero } from './components';
+
+import './App.css';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <main>
+      <div className="main">
+        <div className="gradient" />
+      </div>
+
+      <div className="app">
+        <Hero />
+        <Demo />
+      </div>
+    </main>
+  );
 };
 
 export default App;
